@@ -12,12 +12,12 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 global.owner = [
-["5215625060788", 'Anthony Ventas', true], //Capibot Premium
-["5213344515151", 'Anthony Ventas', true], //Nekotina bot
-["525625060788"]]
+["584123989549", 'sisket', true], //sisket
+["584123989549", 'sisked', true], //sisked
+["584123989549"]]
 
-global.mods = ["5215625060788"]
-global.prems = ["5215625060788"]
+global.mods = ["584123989549"]
+global.prems = ["584123989549"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -112,9 +112,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["5215625060788", 'Anthony Ventas', 1], 
-["5213344515151", 'Anthony', 1],  
-["5215615060788", 'Capibot', 1]]
+["584123989549", 'sisket', 1], 
+["584123989549", 'sisked', 1],  
+["584123989549", 'siskedd', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -122,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
-global.author = "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎"
+global.packname = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
+global.author = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -131,7 +131,7 @@ global.author = "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
+global.gt = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -157,9 +157,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
-global.igfg = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
-global.nomorown = "5215625060788"
+global.wm = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
+global.igfg = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
+global.nomorown = "584123989549"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
