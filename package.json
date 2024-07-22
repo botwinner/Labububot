@@ -1,7 +1,7 @@
 {
-"name": "NEKOTINA",
+"name": "Sisked-BOT",
 "version": "3.8.13", 
-"description": "BY ANTHONY VENTAS",
+"description": "BY SISKED",
 "main": "index.js",
 "type": "module",
     
@@ -19,7 +19,7 @@
     
 "homepage": "https://github.com/GataNina-Li/GataBot-MD",
 "author": {
-"name": "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎" },
+"name": "SISKED" },
     
 "repository": {
 "type": "git",
