@@ -10,7 +10,7 @@ ${bot}
 *${ig}*
 *Si tienen dudas, sugerencias, o preguntas solo escriban por Whatsapp.*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
-/*conn.sendHydrated(m.chat, str, wm, media, 'https://www.wa.me/584123989549', '𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩', null, null, [
+/*conn.sendHydrated(m.chat, str, wm, media, 'https://wa.me/584123989549', '𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩', null, null, [
 ['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝙂𝙧𝙤𝙪𝙥𝙨 🔰', '.grupos'],
 ['𝘾𝙧𝙚𝙖𝙙𝙤𝙧𝙖 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 💗', '#owner'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
