@@ -12,7 +12,7 @@ teks += `┃
 ╰━━━━━[ *𓃠* 𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩 ]━━━━━⬣`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
-handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
+handler.command = /^(tagall|niñas|invocar|invocacion|todos|invocación)$/i
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
