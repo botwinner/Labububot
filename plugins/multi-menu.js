@@ -483,7 +483,7 @@ await conn.sendMessage(m.chat, {image: gataImg, caption: menuA, mentions: mentio
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
  
-} if (command == 'infomenu'){ //info
+} if (command == 'listadosmenu'){ //info
 let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -494,23 +494,26 @@ let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*
 ┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex13']()} 💫
-∘ _${usedPrefix}cuentasgatabot | cuentasgb_
-∘ _${usedPrefix}gruposgb | grupos | groupgb_
-∘ _${usedPrefix}donar | donate_
-∘ _${usedPrefix}listagrupos | grouplist_
-∘ _${usedPrefix}estado | heygata | status_
-∘ _${usedPrefix}infogata | infobot_
-∘ _${usedPrefix}instalarbot | installbot_
-∘ _${usedPrefix}creadora | owner_
-∘ _${usedPrefix}velocidad | ping_
-∘ _${usedPrefix}serbot | jadibot_
-∘ _${usedPrefix}serbot --code | jadibot --code_
-∘ _${usedPrefix}bots | listjadibots_
-∘ _${usedPrefix}detener | stop_
-∘ _${usedPrefix}reporte *texto*_
-∘ _términos y condiciones_
-∘ _Bot_ 
+• *MENU LISTAS PARA VS DE CLANES DE FREE FIRE Y MAS*
+
+_SIGNIFICADOS: HH:MM (HORA:MINUTOS)_
+_CP (CODIGO DE PAIS) PARA LA HORA (MX, CO, CL Y AR)_
+_CR (COLOR DE ROPA)_
+_*EJEMPLO: .4vs4 22:30 MX*_
+_*EJEMPLO: .8vs8 22:50 NEGRO*_
+
+✓ ${usedPrefix}4vs4HH:MM CP
+✓ ${usedPrefix}6vs6 HH:MM CP
+✓ ${usedPrefix}scrim HH:MM CP
+✓ ${usedPrefix}interna4 HH:MM CP
+✓ ${usedPrefix}interna6HH:MM CP
+✓ ${usedPrefix}donarsala Escoge un donador de sala al azar en el grupo
+✓ ${usedPrefix}8vs8 HH:MM CR 
+✓ ${usedPrefix}12vs12 HH:MM CR
+✓ ${usedPrefix}16vs16 HH:MM CR
+✓ ${usedPrefix}20vs20 HH:MM CR
+✓ ${usedPrefix}24vs24 HH:MM CR
+✓ ${usedPrefix}Cuadrilatero HH:MM CR
 `.trim()
 await conn.sendMessage(m.chat, {image: gataImg, caption: menuA, mentions: mentionedJid}, {quoted: fkontak})  
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
@@ -803,10 +806,10 @@ await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}
 }
-handler.help = ['infomenu'].map(v => v + 'able <option>')
+handler.help = ['listadosmenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = ['audioefectomenu', 'buscarmenu', 'hornymenu', 'listaporno', 'listhorny', 'convertidormenu', 'descargasmenu', 'juegosmenu', 'grupomenu',
-'herramientasmenu', 'infomenu', 'makermenu', 'menulogos2', 'ownermenu', 'randommenu', 'rpgmenu', 'stickermenu', 'menu18', 'menugrupo'] 
+'herramientasmenu', 'listadosmenu', 'makermenu', 'menulogos2', 'ownermenu', 'randommenu', 'rpgmenu', 'stickermenu', 'menu18', 'menugrupo'] 
 //handler.register = false
 handler.exp = 50
 export default handler

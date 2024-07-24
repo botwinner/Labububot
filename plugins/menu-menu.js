@@ -236,34 +236,26 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 
 ${margen}
 
-> LISTAS PARA VS Y MAS
+> LISTAS PARA VS DE CLANES DE FREE FIRE Y MAS
 
-✓ .4vs4 Lista de 4 vs 4
-✓ .6vs6 Lista de 6 vs 6
-✓ .scrim Lista de scrim
-✓ .internamasc Lista de versus interno masculino
-✓ .internafem Lista de versus interno femenino
-✓ .internamixta Lista de versus interno mixto
-✓ .donarsala Escoge un donador de sala al azar en el grupo
-✓ .vs8 Lista de 8 vs 8 
-✓ .vs12 Lista de 12 vs 12
-✓ .vs16 Lista de 16 vs 16
-✓ .vs20 Lista de 20 vs 20
-✓ .vs24 Lista de 24 vs 24
-✓ .fem18 Lista de vivido para las 18🇲🇽
-✓ .fem19 Lista de vivido para las 19🇲🇽
-✓ .fem20 Lista de vivido para las 20🇲🇽
-✓ .fem21 Lista de vivido para las 21🇲🇽
-✓ .fem22 Lista de vivido para las 22🇲🇽
-✓ .fem23 Lista de vivido para las 23🇲🇽
-✓ .fem00 Lista de vivido para las 00🇲🇽
-✓ .masc18 Lista de vivido para las 18🇲🇽
-✓ .masc19 Lista de vivido para las 19🇲🇽
-✓ .masc20 Lista de vivido para las 20🇲🇽
-✓ .masc21 Lista de vivido para las 21🇲🇽
-✓ .masc22 Lista de vivido para las 22🇲🇽
-✓ .masc23 Lista de vivido para las 23🇲🇽
-✓ .masc00 Lista de vivido para las 00🇲🇽
+SIGNIFICADOS: HH:MM (HORA:MINUTOS) 
+CP (CODIGO DE PAIS) PARA LA HORA (MX, CO, CL Y AR) 
+CR (COLOR DE ROPA)
+EJEMPLO: ${usedPrefix}4vs4 22:30 MX
+EJEMPLO: ${usedPrefix}8vs8 22:50 NEGRO
+
+✓ ${usedPrefix}4vs4 HH:MM CP
+✓ ${usedPrefix}6vs6 HH:MM CP
+✓ ${usedPrefix}scrim HH:MM CP
+✓ ${usedPrefix}interna4 HH:MM CP
+✓ ${usedPrefix}interna6 HH:MM CP
+✓ ${usedPrefix}donarsala Escoge un donador de sala al azar en el grupo
+✓ ${usedPrefix}8vs8 HH:MM CR 
+✓ ${usedPrefix}12vs12 HH:MM CR
+✓ ${usedPrefix}16vs16 HH:MM CR
+✓ ${usedPrefix}20vs20 HH:MM CR
+✓ ${usedPrefix}24vs24 HH:MM CR
+✓ ${usedPrefix}Cuadrilatero HH:MM CR
 
 > 🧾 *AJUSTES/INFO - GRUPO* 🧾
 
@@ -626,7 +618,7 @@ console.log(e)}
 }
 
 //handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
-handler.command = /^(menucompleto|allmenu|\?)$/i
+handler.command = /^(menucompleto|allmenu)$/i
 handler.register = false
 export default handler
 
