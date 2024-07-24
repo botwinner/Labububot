@@ -164,7 +164,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃💎 _${lenguajeGB['smsTex20']()}_ 💎
 ┃➺ _${usedPrefix}ownermenu_
 ┃
-┃✅ *_CUENTAS OFICIALES NEKOTINA* ✅
+┃✅ *_CUENTAS OFICIALES SISKED* ✅
 ┃➺ _${usedPrefix}cuentas| cuentasgb_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
