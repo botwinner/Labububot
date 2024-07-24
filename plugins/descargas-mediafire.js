@@ -18,7 +18,7 @@ let caption = `${eg}
 ┃ 🚀 ${mid.smsYT12}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁 𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝙎𝙞𝙨𝙠𝙚𝙙', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
 await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
