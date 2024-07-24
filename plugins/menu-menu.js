@@ -539,7 +539,7 @@ EJEMPLO: ${usedPrefix}8vs8 22:50 NEGRO
 
 ✓ _${usedPrefix}fytendencia | fyranking_
 
-> 🏆 *TOP en 𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼* 🏆
+> 🏆 *TOP en SISKED* 🏆
 
 ✓ _${usedPrefix}top | lb | leaderboard_
 
