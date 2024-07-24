@@ -5,7 +5,7 @@ throw false
 }
 let pesan = args.join` `
 let oi = `📄 *MENSAJE:* ${pesan}`
-let teks = `╭━〔 *🌱DESPIERTEN PLANTITAS 🌱* 〕━⬣\n${oi}\n\n*   *\n`
+let teks = `╭━〔 *🌱DESPIERTEN PLANTITAS 🌱* 〕━⬣\n${oi}\n\n \n`
 for (let mem of participants) {
 teks += `┃💥⊹ @${mem.id.split('@')[0]}\n`}
 teks += `┃
