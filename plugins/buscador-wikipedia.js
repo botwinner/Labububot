@@ -4,7 +4,7 @@ import cheerio from 'cheerio';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (!text) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsMalused}\n*${usedPrefix + command} Universe*`
   wikipedia(`${text}`).then((res) => {
-conn.reply(m.chat, `${mid.buscador9}\n\n` + res.result.isi, fkontak, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁 | 𝙒𝙞𝙠𝙞𝙥𝙚𝙙𝙞𝙖', body: '𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻', previewType: 0, thumbnail: imagen2, sourceUrl: accountsgb }}})
+conn.reply(m.chat, `${mid.buscador9}\n\n` + res.result.isi, fkontak, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩 | 𝙒𝙞𝙠𝙞𝙥𝙚𝙙𝙞𝙖', body: '𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝙎𝙞𝙨𝙠𝙚𝙙', previewType: 0, thumbnail: imagen2, sourceUrl: accountsgb }}})
 }).catch((e) => {
 conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
