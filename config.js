@@ -122,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝙏𝙞𝙡𝙞𝙣-𝘽𝙤𝙩"
-global.author = "𝙏𝙞𝙡𝙞𝙣-𝘽𝙤𝙩"
+global.packname = "𝙂𝙊𝙆𝙐-𝘽𝙤𝙩"
+global.author = "𝙂𝙊𝙆𝙐-𝘽𝙤𝙩"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -131,7 +131,7 @@ global.author = "𝙏𝙞𝙡𝙞𝙣-𝘽𝙤𝙩"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝙏𝙞𝙡𝙞𝙣-𝘽𝙤𝙩"
+global.gt = "𝙂𝙊𝙆𝙐-𝘽𝙤𝙩"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
