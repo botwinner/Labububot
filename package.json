@@ -1,7 +1,7 @@
 {
-"name": "Sisked-BOT",
+"name": "Tilin-BOT",
 "version": "3.8.13", 
-"description": "BY SISKED",
+"description": "BY TILIN",
 "main": "index.js",
 "type": "module",
     
@@ -19,7 +19,7 @@
     
 "homepage": "https://github.com/GataNina-Li/GataBot-MD",
 "author": {
-"name": "SISKED" },
+"name": "TILIN" },
     
 "repository": {
 "type": "git",
@@ -47,7 +47,7 @@
 "body-parser": "^1.20.2",
 "cfonts": "^3.2.0",
 "chalk": "^5.0.0",
-"cheerio": "^1.0.0-rc.10",
+"cheerio": "^1.0.0-rc.12",
 "colors": "^1.4.0",
 "countries-and-timezones": "^3.6.0",
 "express": "^4.17.3",
