@@ -5,11 +5,11 @@ throw false
 }
 let pesan = args.join` `
 let oi = `📄 *MENSAJE:* ${pesan}`
-let teks = `╭━〔 *🥷Ay activate  te hablan 🥷* 〕━⬣\n${oi}\n\n`
+let teks = `╭━〔 *LOS CHIKIS LES HABLAN DESPIERTEN* 〕━⬣\n${oi}\n\n`
 for (let mem of participants) {
-teks += `┃🥷⊹ @${mem.id.split('@')[0]}\n`}
+teks += `┃😈⊹ @${mem.id.split('@')[0]}\n`}
 teks += `┃
-╰━━━━━[ *𓃠* 𝙂𝙊𝙆𝙐-𝘽𝙤𝙩 ]━━━━━⬣`
+╰━━━━━[ 𝗟𝗢𝗦 𝗖𝗛𝗜𝗞𝗜𝗦 ]━━━━━⬣`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
 handler.command = /^(tagall|niñas|invocar|invocacion|todos|invocación)$/i
