@@ -13,7 +13,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 global.owner = [
 ["5217715020508", 'Tilin', true], //el tilin
-["5217715020508", 'gay', true], //es gay
+["5217715020578", 'gay', true], //es gay
 ["5218336105471"]]
 
 global.mods = ["5217715020508"]
@@ -122,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝗟𝗢𝗦 𝗖𝗛𝗜𝗞𝗜𝗦"
-global.author = "𝗟𝗢𝗦 𝗖𝗛𝗜𝗞𝗜𝗦"
+global.packname = "𝗟ABUBU BOT"
+global.author = "𝗟ABUBU BOT"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
